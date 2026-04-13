@@ -36,3 +36,29 @@ Chatbot/
 │── .env # API keys (ignored)
 │── .gitignore # Ignored files
 │── venv/ # Virtual environment (ignored)
+
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/GAUTAMSINGH6924/Chat-Bot.git
+
+cd Chat-Bot
+
+2️⃣ Create Virtual Environment
+python -m venv venv
+
+3️⃣ Activate Virtual Environment
+venv\Scripts\activate   # On Windows
+
+4️⃣ Install Dependencies
+pip install -r requirements.txt
+
+5️⃣ Setup Environment Variables
+Create a .env file in the root directory:
+
+API_KEY=your_api_key_here
+
+▶️ Running the Application
+python app.py
